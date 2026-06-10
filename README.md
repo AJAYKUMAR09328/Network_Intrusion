@@ -30,29 +30,4 @@ The project is based on the CIC IDS 2017 dataset and aims to provide an accurate
 - Batch CSV/Excel file analysis
 
 
-## Project Architecture
-
-Raw Network Traffic
-        │
-        ▼
-Data Preprocessing
-        │
-        ▼
-Feature Standardization
-        │
-        ▼
-Model Training
- ┌─────────┬─────────┬─────────┐
- │   CNN   │   GNN   │Transformer│
- └─────────┴─────────┴─────────┘
-        │
-        ▼
-Model Evaluation
-        │
-        ▼
-Streamlit Web Application
-        │
-        ▼
-Real-Time Intrusion Detection
-
 
